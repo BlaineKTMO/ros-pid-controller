@@ -1,0 +1,11 @@
+HZ: 10
+PATH_FRAME: "odom"
+NODE_NAME: "controller"
+P_GAIN: 0.3
+D_GAIN: 0.35
+I_GAIN: 0.1
+PATH_TOPIC: "/path"
+ODOM_TOPIC: "/odom"
+CMD_VEL_TOPIC: "/cmd_vel"
+SPEED: 0.2
+

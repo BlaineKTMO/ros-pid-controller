@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<launch>
+    <node pkg="turtlebot_pid" type="controller.py" name="turtlebot_pid_controller" ns="local_controller">
+        <rosparam command="load" file="$(find turtlebot_pid)/config/params.yaml"/>
+    </node>
+</launch>
